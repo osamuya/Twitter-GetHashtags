@@ -1,5 +1,5 @@
 {
-    "name": "osamuya/Twitter-GetHashtags",
+    "name": "osamuya/twitter-get-hashtags",
     "version": "0.1",
     "description": "Get posts tweeted with specified hashtag.",
     "keywords": ["Twitter", "API", "Hashtag"],
