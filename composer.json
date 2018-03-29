@@ -1,0 +1,16 @@
+{
+    "name": "osamuya/Twitter-GetHashtags",
+    "version": "0.1",
+    "description": "Get posts tweeted with specified hashtag.",
+    "keywords": ["Twitter", "API", "Hashtag"],
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "monolog/monolog": "^1.23.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "osamuya\\Twitter-GetHashtags\\": "src/"
+        }
+    }
+}
