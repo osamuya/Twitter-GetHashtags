@@ -21,10 +21,15 @@
 ------------------------------------------------------------
 
 1. Githubでリポジトリをつくる。
-1. composer.jsonを作成
+1. composer.jsonを作成 (nameは小文字じゃないとダメらしい。)
 1. composer install
 1. vebdorをignore
 1. sample.phpとかでautoload
+
+1. Packagistに登録。Githubのhttpの方のリポジトリのアドレスをSubmitします。
+[https://packagist.org/packages/submit](https://packagist.org/packages/submit)
+1. 登録が成功したら、composerで読んでみる。
+
 
 
 
