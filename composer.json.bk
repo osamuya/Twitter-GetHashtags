@@ -1,0 +1,5 @@
+{
+    "require": {
+        "osamuya/twitter-get-hashtags": "dev-master"
+    }
+}

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a8808d94d370e5e6f93a8868b371b959",
+    "content-hash": "e57c828562ac1c64f46d0fd7ec164e89",
     "packages": [
         {
             "name": "monolog/monolog",
@@ -85,6 +85,41 @@
             "time": "2017-06-19T01:22:40+00:00"
         },
         {
+            "name": "osamuya/twitter-get-hashtags",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/osamuya/Twitter-GetHashtags.git",
+                "reference": "2a3d3e74ca29999cbdc0356fd4c3dc79ad9068e1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/osamuya/Twitter-GetHashtags/zipball/2a3d3e74ca29999cbdc0356fd4c3dc79ad9068e1",
+                "reference": "2a3d3e74ca29999cbdc0356fd4c3dc79ad9068e1",
+                "shasum": ""
+            },
+            "require": {
+                "monolog/monolog": "^1.23.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "osamuya\\Twitter-GetHashtags\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Get posts tweeted with specified hashtag.",
+            "keywords": [
+                "api",
+                "hashtag",
+                "twitter"
+            ],
+            "time": "2018-03-29T14:47:32+00:00"
+        },
+        {
             "name": "psr/log",
             "version": "1.0.2",
             "source": {
@@ -135,7 +170,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "osamuya/twitter-get-hashtags": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

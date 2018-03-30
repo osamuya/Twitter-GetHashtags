@@ -6,7 +6,8 @@
     "type": "library",
     "license": "MIT",
     "require": {
-        "monolog/monolog": "^1.23.0"
+        "monolog/monolog": "^1.23.0",
+        "osamuya/twitter-get-hashtags": "dev-master"
     },
     "autoload": {
         "psr-4": {
